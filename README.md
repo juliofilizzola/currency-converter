@@ -53,4 +53,4 @@ $ npm run serve
 
 ## **OBS**
 
-o servido roda na porta http://localhost/8080
+O servido roda na porta http://localhost/8080
