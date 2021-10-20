@@ -40,5 +40,10 @@ export default {
 </script>
 
 <style>
- .conversor {};
+.conversor {
+  border: 1px solid #000000;
+  border-radius: 8px;
+  color: #fff;
+  background: #58555a;
+}
 </style>
