@@ -29,10 +29,10 @@ export default {
       if (this.moedaA === "USD" && this.moedaB === "BRL") contação = 5.2164;
       if (this.moedaA === "EUR" && this.moedaB === "BRL") contação = 6.397;
       if (this.moedaA === "EUR" && this.moedaB === "USD") contação = 1.2206;
-      const iof_value = 0.011;
-      const fx_value = 0.1;
+      const iof_value = (parseFloat(this.moedaA_value) / 100) * 1.1;
+      const fx_value = (parseFloat(this.moedaA_value) / 100) * 1;
       let valorParcial = parseFloat(this.moedaA_value) - iof_value - fx_value;
-      let conversão = (valorParcial * contação).toFixed(2);
+      let conversão = valorParcial * contação;
       this.moedaB_value = conversão === "NaN" ? 0 : conversão;
     },
   },
