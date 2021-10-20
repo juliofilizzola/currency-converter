@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div>
     <h1>Conversor de Moedas</h1>
 
     <div class="conversor">
@@ -39,4 +39,6 @@ export default {
 };
 </script>
 
-<style lang="sss"></style>
+<style>
+ .conversor {};
+</style>

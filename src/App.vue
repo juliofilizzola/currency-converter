@@ -1,6 +1,10 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <Converter moeda-a="USD" moeda-b="BRL" />
+  <div class="container">
+    <Converter moeda-a="USD" moeda-b="BRL" />
+    <Converter moeda-a="EUR" moeda-b="BRL" />
+    <Converter moeda-a="EUR" moeda-b="USD" />
+  </div>
 </template>
 
 <script>
@@ -16,11 +20,16 @@ export default {
 
 <style>
 #app {
+  justify-content: space-around;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  /* text-align: center; */
   color: #2c3e50;
   margin-top: 60px;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
 }
 </style>
