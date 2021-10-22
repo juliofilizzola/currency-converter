@@ -38,7 +38,6 @@ Rode esse comando na raiz do projeto.
 
 ```
 $ npm install
-
 ```
 
 Logo após inicie o projeto com esse comando.
