@@ -23,14 +23,12 @@ Primeiro clone o Repositório.
 
 ```
 $ git clone git@github.com:juliofilizzola/currency-converter.git
-
 ```
 
 Entre no diretório do projeto.
 
 ```
 $ cd currency-converter
-
 ```
 
 Instale as dependências do Projeto.
